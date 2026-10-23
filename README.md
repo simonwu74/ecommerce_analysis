@@ -2,10 +2,15 @@
 
 An e-commerce analytics portfolio project using Python, DuckDB, dbt, and SQL.
 
-The project will explore whole data analysis process.
+This project explores the data analysis process using the Olist dataset.
 
-Build metrics -> Find business problem -> metrics decomposition and root cause analysis -> A/B test design(not applicable though) -> DashBoard
+## Planned Workflow
 
+1. Understand the dataset and check data quality.
+2. Prepare the data and explore key business metrics.
+3. Identify business questions.
+4. Analyze patterns and investigate possible causes.
+5. Build a dashboard and present recommendations.
 
 ## Project Status
 
