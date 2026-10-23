@@ -1,0 +1,20 @@
+name: ecommerce_analysis
+version: "1.0.0"
+config-version: 2
+
+profile: ecommerce_analysis
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+
+models:
+  ecommerce_analysis:
+    staging:
+      +materialized: view
+
+    intermediate:
+      +materialized: view
+
+    marts:
+      +materialized: table
