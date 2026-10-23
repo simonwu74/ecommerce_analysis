@@ -1,0 +1,23 @@
+# Raw data
+data/raw/
+
+# Local database
+*.duckdb
+*.duckdb.wal
+
+# dbt generated files
+target/
+dbt_packages/
+logs/
+
+# Local configuration
+profiles.yml
+.env
+
+# Python generated files
+__pycache__/
+*.pyc
+.venv/
+
+# macOS files
+.DS_Store
